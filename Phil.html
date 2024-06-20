@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ART FROM WITHIN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="HomePage.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="logo.gif" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Artworks.html">Artworks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Artists.html">Artists</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <main>
+            <section class="artist-info">
+                <div class="artist-image">
+                    <img src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t39.30808-6/374401401_149274241562111_7237047504849070182_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHg94xjqWZr2UEMqqH39OA7S_e9kkjl4PdL972SSOXg9_sOjHhxWgyFaMqReKzNe5c-NPYLkBTLKc0Y6iQCsmaQ&_nc_ohc=yGDJyd4phXYQ7kNvgFfW4Te&_nc_ht=scontent.fmnl3-1.fna&oh=00_AYC1nj13hg7eGL7xo3559y5pW6vVF43gIhP8tC1GvNVdqg&oe=6674D369" alt="Artist Image">
+                </div>
+                <div class="artist-details">
+                    <h1>Phil Wesley Reyes</h1>
+                    <p>He's a 19-year-old college student currently pursuing a degree in Multimedia Arts. His specialization lies in graphic design, 3D art, and digital arts. With a passion for visual creativity, he blends technical skills and artistic vision to create compelling and dynamic projects. Whether it's crafting intricate 3D models, designing visually striking graphics, or developing immersive digital art, he strives to push the boundaries of multimedia artistry. His academic journey is dedicated to honing his skills and exploring new dimensions of digital creativity.</p>
+                </div>
+            </section>
+            <section class="artworks">
+                <div class="artwork" data-title="Chaos of Minds" data-description="" data-medium="Digital Art, Adobe Illustrator, Photoshop">
+                    <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/444759491_736605822356607_3233143914793362021_n.png?stp=dst-png_p1080x2048&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFV0D3RQ5qLPoGR0SDfxtdGI9EYpWmKr8Aj0RilaYqvwPlWl_NbQwf-YOKPnUW3270SYlB-5s9vwKzjuYmk5el5&_nc_ohc=7skdBJKJzjQQ7kNvgFwbRDu&_nc_ht=scontent.fmnl3-2.fna&oh=03_Q7cD1QGBjytOFq_W447o2Nqk_BTfhS6c4tGIy3cUA0JXM2FnUQ&oe=669704AB" alt="Artwork 4">
+                </div>
+                <div class="artwork" data-title="Pop Icon" data-description="" data-medium="Digital Art, Adobe Illustrator, Photoshop">
+                    <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/445378659_1166231964826191_2456715062878575248_n.png?stp=dst-png_p1080x2048&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFcosG66JrP0UNRNWYo0Znr0Ph1xhI2nanQ-HXGEjadqQ53-Wbfy6fx38q-krieGHNjtTvGlC01jv7iI3r06Rpe&_nc_ohc=ksH8-JwitNQQ7kNvgEgNuWI&_nc_ht=scontent.fmnl3-2.fna&oh=03_Q7cD1QGy8AnAyxk3M1CVHAt4azoOqHC9bz6yc4oBBButaIT1eg&oe=6696961E" alt="Artwork 1">
+                </div>
+                <div class="artwork" data-title="See" data-description="" data-medium="Digital Art, Adobe Illustrator, Photoshop">
+                    <img src="https://scontent.fmnl37-2.fna.fbcdn.net/v/t1.15752-9/436578575_469547135491952_72018644272066288_n.png?stp=dst-png_p1080x2048&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEaNfBk1bv22z5T-UI8493MJ6kxDxDRN_8nqTEPENE3_yvzCrP5PwnUqxd-WEbUVaa5HB1I7y1jcxhHJkknA26w&_nc_ohc=nnY4_zeo8fwQ7kNvgFbW9mq&_nc_ht=scontent.fmnl37-2.fna&oh=03_Q7cD1QEJ60F7PWe5cbxy93ATFNFzxFdZ4aDLMjvYn3H-v6hTsg&oe=6696F617" alt="Artwork 2">
+                </div>
+                <div class="artwork" data-title="Selene" data-description="" data-medium="Digital Art, Inkscape">
+                    <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/281840588_1385554041911337_4306586478349902717_n.png?stp=dst-png_p1080x2048&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeETERMPlvXYGv8GuFWZoE8DECLLXBGiitMQIstcEaKK07pp3_IxnOJMnw76sBi5IBWe9KnmzM-cgAWJ-8SQ0vyi&_nc_ohc=y9_4NH-GGzoQ7kNvgFSLtKz&_nc_ht=scontent.fmnl3-2.fna&oh=03_Q7cD1QHhLWo1E-DQ8LSWgAogkG7hXK6N2AMglS0LCkD980yaNg&oe=66971ED1" alt="Artwork 5">
+                </div>
+                <div class="artwork" data-title="Spirals of Circles" data-description="" data-medium="Digital Art, Adobe Illustrator, Photoshop">
+                    <img src="https://scontent.fmnl37-1.fna.fbcdn.net/v/t1.15752-9/441008658_1671528143606268_3605427960831164900_n.png?stp=dst-png_p1080x2048&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGdobiO56bmti96RYNAf1T27p4YHrY9fTLunhgetj19MpKJvBBJaMYldWIPUL-v5AJmSYzK3V4TD5gHXlX6z9-J&_nc_ohc=javK_iU7_7gQ7kNvgGpdT-Q&_nc_ht=scontent.fmnl37-1.fna&oh=03_Q7cD1QEgWrBC7lqJl1Z_LhnvsfB04hkDcpJimR5yLT55Y3tAGA&oe=6697092B" alt="Artwork 3">
+                </div>
+                <div class="artwork" data-title="Luminescence Fragrances" data-description="" data-medium="3D Art, Blender Software">
+                    <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/436659251_1173050787223470_2599427730286183831_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE6Hj8azs3jDuPlnuRuySFyXzMPO2kOyTZfMw87aQ7JNrfDD392ouEokxzE7gu_x7NA_byzuoaQIAQnuA4yzWnR&_nc_ohc=_nyiFUHUjS4Q7kNvgFa6D8Q&_nc_ht=scontent.fmnl3-4.fna&oh=03_Q7cD1QExESCn6ZlZ-ptZnUI8kubBhGmy_38iyc1CKK_o60kqMg&oe=66971516" alt="Artwork 6">
+                </div>
+            </section>
+        </main>
+        </main>
+        <div id="artwork-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <img id="modal-img" src="" alt="Detailed Artwork">
+                    </div>
+                    <div class="modal-info">
+                        <h1 id="modal-title">ARTWORK NAME</h1>
+                        <p id="modal-description">Detailed description for the artwork.</p>
+                        <p id="modal-medium">Medium: </p> <!-- Added a new paragraph for medium -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const artworks = document.querySelectorAll('.artwork img');
+            const modal = document.getElementById('artwork-modal');
+            const modalImg = document.getElementById('modal-img');
+            const modalTitle = document.getElementById('modal-title');
+            const modalDescription = document.getElementById('modal-description');
+            const modalMedium = document.getElementById('modal-medium');
+            const closeModal = document.querySelector('.close');
+    
+            artworks.forEach(artwork => {
+                artwork.addEventListener('click', (event) => {
+                    const imgSrc = event.target.src;
+                    const artworkElement = event.target.closest('.artwork');
+                    const artworkTitle = artworkElement.getAttribute('data-title');
+                    const artworkDescription = artworkElement.getAttribute('data-description');
+                    const artworkMedium = artworkElement.getAttribute('data-medium');
+    
+                    modalImg.src = imgSrc;
+                    modalTitle.textContent = artworkTitle;
+                    modalDescription.textContent = artworkDescription;
+                    modalMedium.textContent = `Medium: ${artworkMedium}`; // Display the medium
+    
+                    modal.classList.remove('hidden');
+                });
+            });
+    
+            closeModal.addEventListener('click', () => {
+                modal.classList.add('hidden');
+            });
+    
+            window.addEventListener('click', (event) => {
+                if (event.target == modal) {
+                    modal.classList.add('hidden');
+                }
+            });
+        });
+        </script>
+    
+        <style>
+        body {
+            background-color: #00F6C5;
+        }
+    
+        main {
+            padding: 20px;
+        }
+    
+        .artist-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            padding: 80px;
+            column-gap: 80px;
+            font-weight: 600;
+            justify-content: center;
+            margin: auto;
+        }
+    
+            .artist-info h1 {
+                font-weight: 900;
+            }
+    
+        .artist-image img {
+            width: 300px;
+            height: 400px;
+            margin-right: 20px;
+            overflow: hidden;
+            object-fit: cover;
+            box-shadow: 20px 20px #fff;
+            outline: 7px solid #000;
+        }
+    
+        .artist-details {
+            max-width: 800px;
+        }
+    
+        .artworks {
+            display: grid;
+            grid-template-columns: repeat(3, 400px);
+            gap: 20px;
+            justify-content: center;
+            margin: auto;
+        }
+    
+        .artwork img {
+            width: 100%;
+            height: 533.2px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            object-fit: cover;
+            box-shadow: 10px 10px 0px 0px #000;
+            transition: box-shadow 0.3s ease;
+            transition: transform 0.3s ease;
+            outline: 2px solid #000;
+        }
+    
+            .artwork img:hover {
+                transform: translateY(-10px);
+                box-shadow: 15px 15px 0px 0px #D700F6;
+                transform: translateY(-10px)
+            }
+    
+        .modal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+        }
+    
+            .modal.hidden {
+                display: none;
+            }
+    
+        .modal-content {
+            background-color: #7FE373;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 95%;
+            max-height: 95%;
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            overflow: auto;
+            position: relative;
+        }
+    
+        .modal-body {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            gap: 80px;
+        }
+    
+        .modal-image img {
+            width: 720px;
+            height: auto;
+            max-width: 800px;
+            box-shadow: 10px 10px 0px 0px #000;
+            outline: 5px solid #fff;
+        }
+    
+        .modal-info {
+            color: #000;
+            max-width: 600px;
+            align-items: baseline;
+            font-weight: 600;
+        }
+    
+            .modal-info h1 {
+                color: #000;
+                max-width: 600px;
+                align-items: baseline;
+                font-weight: 900;
+                font-size: 72px;
+            }
+    
+    
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            color: #fff;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        </style>
+    

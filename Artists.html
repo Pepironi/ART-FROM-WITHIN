@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ART FROM WITHIN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="HomePage.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="logo.gif" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> 
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Artworks.html">Artworks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Artists.html">Artists</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+<main>
+    <h1>ARTISTS</h1>
+    <div class="artworks-grid">
+        <div class="artwork-item">
+            <a class="artist-link" href="Aenon.html">
+            <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.6435-9/198622100_4055488087820072_274421601278242803_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGIF9avM--xHtjMM8suPEZezm-U7FNjSRDOb5TsU2NJEKXwj7QGBqGBds_u3yUaJdMaTXrOn1dFlDz4Uckcsej_&_nc_ohc=0ZYhny0euiIQ7kNvgE1Y-U9&_nc_ht=scontent.fmnl3-4.fna&oh=00_AYBkTlsoldELS-D9MK_tZMv-ih5l87dPk23QLXGpOXjL5w&oe=6696DC3B">
+            <div class="artwork-info">
+                <span class="artwork-name">Aenon Rose Patron</span>
+            </div>
+            </a>
+        </div>
+        <div class="artwork-item">
+            <a class="artist-link" href="Jarldon.html">
+            <img src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t39.30808-6/436222362_3877549825811528_3644464726064849112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFBmju2KdWlk7GHGbLLzpQwN32Kz_XmDgw3fYrP9eYODJ9GdWoYqQFvNpPMwAEdZtWaWhyXCpx8OcgLZwn2hH3N&_nc_ohc=sAcVzAtObckQ7kNvgFQtJjU&_nc_ht=scontent.fmnl3-1.fna&oh=00_AYDWtDdQdwOy-mng5QU-5Mv-W7GXFY0-AyesuJsPkq9m6A&oe=667544F6" alt="Artist 2" onclick="location.href='@Url.Action("Index", "Artist_2")'">
+            <div class="artwork-info">
+                <span class="artwork-name">Jarldon Neil Narag</span>
+            </div>
+            </a>
+        </div>
+        <div class="artwork-item">
+            <a class="artist-link" href="Jaycah.html">
+            <img src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t39.30808-6/415899030_2549684721874048_8410496683367358854_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHPHN6cK9cJzMh8LXbDqdv8wWz5HiKLy_DBbPkeIovL8Ep7KPSkGOVZMvCP-h8822VCzBfbDKLgJDJzsOYF9LEI&_nc_ohc=Z45MsEYUoHkQ7kNvgF93djb&_nc_ht=scontent.fmnl3-1.fna&oh=00_AYCT-JnFV7Y4cOPyWjuGr8F-nmeAQgHJNCX26vtqIODzlA&oe=66755F46" alt="Artist 3" onclick="location.href='@Url.Action("Index", "Artist_3")'">
+            <div class="artwork-info">
+                <span class="artwork-name">Jaycah Roncales</span>
+            </div>
+            </a>
+        </div>
+        <div class="artwork-item">
+            <a class="artist-link" href="Jem.html">
+            <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/298762382_1190220808484688_413033362689021462_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFoconNt0EwtXeNO3dURPJclQmDu0KMM3-VCYO7Qowzf5p_vfp9UKXM6n2OuYbg4q5l3CdqUtov8pPl6-9tfv74&_nc_ohc=dJVLuqNEbWoQ7kNvgG70TnW&_nc_ht=scontent.fmnl3-2.fna&oh=03_Q7cD1QGjYNSQSXiCuSvtisImbNZYxb1cynVMSNDo6jqTfIulGA&oe=6696CD4A" alt="Artist 4" onclick="location.href='@Url.Action("Index", "Artist_4")'">
+            <div class="artwork-info">
+                <span class="artwork-name">Jeramie Padilla</span>
+            </div>
+            </a>
+        </div>
+        <div class="artwork-item">
+            <a class="artist-link" href="Learny.html">
+            <img src="https://scontent.fmnl3-3.fna.fbcdn.net/v/t1.15752-9/448314961_8076312559045938_7550885378310403643_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEp17_AOc4JOSTABnZJVOVsVZJTSC8PAAlVklNILw8ACcMGNzZ4-jJK5mBtZJcgOJMBAcdSa82W7K_qQzZY6eGL&_nc_ohc=C_IqzFiU6KMQ7kNvgF_59dg&_nc_ht=scontent.fmnl3-3.fna&oh=03_Q7cD1QFEeIO5NO7s1qrf8bfoPX5Lb4Lf8ZMSG3gA93Gv6xVhoA&oe=66974CA7" alt="Artist 5" onclick="location.href='@Url.Action("Index", "Artist_5")'">
+            <div class="artwork-info">
+                <span class="artwork-name">Learny Mae Tabozo</span>
+            </div>
+            </a>
+        </div>
+        <div class="artwork-item">
+            <a class="artist-link" href="Phil.html">
+            <img src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t39.30808-6/374401401_149274241562111_7237047504849070182_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHg94xjqWZr2UEMqqH39OA7S_e9kkjl4PdL972SSOXg9_sOjHhxWgyFaMqReKzNe5c-NPYLkBTLKc0Y6iQCsmaQ&_nc_ohc=yGDJyd4phXYQ7kNvgFfW4Te&_nc_ht=scontent.fmnl3-1.fna&oh=00_AYC1nj13hg7eGL7xo3559y5pW6vVF43gIhP8tC1GvNVdqg&oe=6674D369" alt="Artist 6" onclick="location.href='@Url.Action("Index", "Artist_6")'">
+            <div class="artwork-info">
+                <span class="artwork-name">Phil Wesley Reyes</span>
+            </div>
+            </a>
+        </div>
+    </div>
+</main>

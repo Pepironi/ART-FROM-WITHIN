@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ART FROM WITHIN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="HomePage.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="logo.gif" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Artworks.html">Artworks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Artists.html">Artists</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+<main>
+    <main>
+        <section class="artist-info">
+            <div class="artist-image">
+                <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/298762382_1190220808484688_413033362689021462_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFoconNt0EwtXeNO3dURPJclQmDu0KMM3-VCYO7Qowzf5p_vfp9UKXM6n2OuYbg4q5l3CdqUtov8pPl6-9tfv74&_nc_ohc=dJVLuqNEbWoQ7kNvgG70TnW&_nc_ht=scontent.fmnl3-2.fna&oh=03_Q7cD1QGjYNSQSXiCuSvtisImbNZYxb1cynVMSNDo6jqTfIulGA&oe=6696CD4A" alt="Artist Image">
+            </div>
+            <div class="artist-details">
+                <h1>Jeramie Padilla</h1>
+                <p>During my childhood, limited resources sparked my creativity. Rather than asking for toys, I created my own, igniting my lifelong passion for art. My earliest projects involved transforming everyday items, such as clothespins turning it into imaginative creations like rocket ships, doing cut-out paperdolls, oregami and spent countless hours on art and craft projects inspired by my favorite art shows and cartoons. As time passed, I found myself increasingly drawn to art. I consider myself a "Jack of all trades," having explored and experimented with various mediums and techniques, mastering none. My journey is a testament to the idea that true art comes from within. The process of creating something from nothing, driven by pure imagination and resourcefulness.</p>
+            </div>
+        </section>
+        <section class="artworks">
+            <div class="artwork" data-title="Colors of Wonders" data-description="" data-medium="Yarn, Cardboard">
+                <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/448508481_812371927522694_5924896492220781858_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG74ICt17mo419PJ4PYD5yanuBdzixWRmGe4F3OLFZGYWiMK6dwSt2yRwymuN8Q5r6YfHwoV9x4GOZLf2ZF5-9Q&_nc_ohc=8pj-k23NBvQQ7kNvgHK6tot&_nc_ht=scontent.fmnl3-4.fna&oh=03_Q7cD1QG5gRVSzfJjBZi2jGhWgnKiTRzUDN7n_trrbFAB0QdRcw&oe=6696E6FC" alt="Artwork 1">
+            </div>
+            <div class="artwork" data-title="Compassion for 5000" data-description="" data-medium="Ibispaint X, Digital Art">
+                <img src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t1.15752-9/445794072_996395441854750_800902489625159364_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGu8A3jtnBCEZQNgAfBySKCiJKgWpAPDuiIkqBakA8O6Fsyodsg0LMjylXAQiUiSz--AGTYzuL2yjQLCmLji_6F&_nc_ohc=7ZOT7jBZnCMQ7kNvgGYVujn&_nc_ht=scontent.fmnl3-1.fna&oh=03_Q7cD1QGKNSVplSSl2dCAMekGiB8XzYKLn4m8vTQ8HsLcBrqaTA&oe=66971092" alt="Artwork 2">
+            </div>
+            <div class="artwork" data-title="Ebony Pride" data-description="" data-medium="Ibispaint X, Digital Art">
+                <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/445767396_783078470258230_8487570168993377343_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFKj8vEKhrS5bQw4HzgqIMc7smizwfYLaTuyaLPB9gtpJqMYP5xwgkPb-sziyNc7uaOH2SqgIu1xQsnIxpWGgVP&_nc_ohc=ZMKwBITfbzoQ7kNvgFkmI-d&_nc_ht=scontent.fmnl3-4.fna&oh=03_Q7cD1QEW_Qh2anKTbVufrW0Ro3jADWf___-YGi2Y2Y62wERK7Q&oe=66970539" alt="Artwork 3">
+            </div>
+            <div class="artwork" data-title="JEMBO" data-description="" data-medium="Ibispaint X, Digital Art">
+                <img src="https://scontent.fmnl37-1.fna.fbcdn.net/v/t1.15752-9/445700285_818749339754689_5899236974467394331_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEE1wbL0nJ4axFuZUiCCLBofXpjSr8mu5d9emNKvya7l0W4nVv9NQLljUG9ZF9x8DHcS4e_bF4L6-9zOrdXYrdA&_nc_ohc=ZPXxqXdPGQYQ7kNvgH8Otfz&_nc_ht=scontent.fmnl37-1.fna&oh=03_Q7cD1QFIU2Br1CZceX06oBwEunS19j-92dJM2SvXq1Qnr4HqtA&oe=669715C4" alt="Artwork 4">
+            </div>
+            <div class="artwork" data-title="Nekomata" data-description="" data-medium="Coffee Painting">
+                <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/445720328_1110454836914524_4246688082042437067_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH1BGzPzjUAz2SiBad76uJKC844jyt7BbMLzjiPK3sFs1nJtoXel43mVCby6l0dTKJox5D0EKXcPyh5JQf6Ax14&_nc_ohc=0QRledcFaOcQ7kNvgHnQTHC&_nc_ht=scontent.fmnl3-2.fna&oh=03_Q7cD1QExNcwKncOAStSioOJT7-seGMbneCCmj3XhOf5gIdX9FA&oe=6696F192" alt="Artwork 5">
+            </div>
+            <div class="artwork" data-title="The Paradox of Love" data-description="" data-medium="Paint on Canvas">
+                <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/448441354_480147287834625_2431335456322722130_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFWLA73q11GM-vv-mIb1GDCNd3TnwxkT9A13dOfDGRP0MhWNR-ztKvrF6Z8e7gwZLe2ImbM3qOVLQW6iSeYyL8v&_nc_ohc=XChlGVar62QQ7kNvgGC54ju&_nc_ht=scontent.fmnl3-4.fna&oh=03_Q7cD1QF65Kr_llDH9H3NkBngBFxs28MK8LTDgzCAeAwje2iTqg&oe=66971203" alt="Artwork 6">
+            </div>
+        </section>
+    </main>
+    <div id="artwork-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modal-img" src="" alt="Detailed Artwork">
+                </div>
+                <div class="modal-info">
+                    <h1 id="modal-title">ARTWORK NAME</h1>
+                    <p id="modal-description">Detailed description for the artwork.</p>
+                    <p id="modal-medium">Medium: </p> <!-- Added a new paragraph for medium -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const artworks = document.querySelectorAll('.artwork img');
+        const modal = document.getElementById('artwork-modal');
+        const modalImg = document.getElementById('modal-img');
+        const modalTitle = document.getElementById('modal-title');
+        const modalDescription = document.getElementById('modal-description');
+        const modalMedium = document.getElementById('modal-medium');
+        const closeModal = document.querySelector('.close');
+
+        artworks.forEach(artwork => {
+            artwork.addEventListener('click', (event) => {
+                const imgSrc = event.target.src;
+                const artworkElement = event.target.closest('.artwork');
+                const artworkTitle = artworkElement.getAttribute('data-title');
+                const artworkDescription = artworkElement.getAttribute('data-description');
+                const artworkMedium = artworkElement.getAttribute('data-medium');
+
+                modalImg.src = imgSrc;
+                modalTitle.textContent = artworkTitle;
+                modalDescription.textContent = artworkDescription;
+                modalMedium.textContent = `Medium: ${artworkMedium}`; // Display the medium
+
+                modal.classList.remove('hidden');
+            });
+        });
+
+        closeModal.addEventListener('click', () => {
+            modal.classList.add('hidden');
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target == modal) {
+                modal.classList.add('hidden');
+            }
+        });
+    });
+    </script>
+
+    <style>
+    body {
+        background-color: #FC6929;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .artist-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        padding: 80px;
+        column-gap: 80px;
+        font-weight: 600;
+        justify-content: center;
+            margin: auto;
+    }
+
+        .artist-info h1 {
+            font-weight: 900;
+        }
+
+    .artist-image img {
+       width: 300px;
+        height: 400px;
+        margin-right: 20px;
+        overflow: hidden;
+        object-fit: cover;
+        box-shadow: 20px 20px  #fff;
+        outline: 7px solid #000;
+    }
+
+    .artist-details {
+        max-width: 800px;
+    }
+
+    .artworks {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        gap: 20px;
+        justify-content: center;
+            margin: auto;
+    }
+
+    .artwork img {
+        width: 100%;
+        height: 533.2px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        object-fit: cover;
+        box-shadow: 10px 10px 0px 0px #000;
+        transition: box-shadow 0.3s ease;
+        transition: transform 0.3s ease;
+        outline: 2px solid #000;
+    }
+
+        .artwork img:hover {
+            transform: translateY(-10px);
+            box-shadow: 15px 15px 0px 0px #37B5F4;
+            transform: translateY(-10px)
+        }
+
+    .modal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+    }
+
+        .modal.hidden {
+            display: none;
+        }
+
+    .modal-content {
+        background-color: #7FE373;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 95%;
+        max-height: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        overflow: auto;
+        position: relative;
+    }
+
+    .modal-body {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 80px;
+    }
+
+    .modal-image img {
+        width: 720px;
+        height: auto;
+        max-width: 800px;
+        box-shadow: 10px 10px 0px 0px #000;
+        outline: 5px solid #fff;
+    }
+
+    .modal-info {
+        color: #000;
+        max-width: 600px;
+        align-items: baseline;
+        font-weight: 600;
+    }
+
+        .modal-info h1 {
+            color: #000;
+            max-width: 600px;
+            align-items: baseline;
+            font-weight: 900;
+            font-size: 72px;
+        }
+
+
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    </style>

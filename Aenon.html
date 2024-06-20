@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ART FROM WITHIN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="HomePage.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="logo.gif" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Artworks.html">Artworks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Artists.html">Artists</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<main>
+    <section class="artist-info">
+        <div class="artist-image">
+            <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.6435-9/198622100_4055488087820072_274421601278242803_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGIF9avM--xHtjMM8suPEZezm-U7FNjSRDOb5TsU2NJEKXwj7QGBqGBds_u3yUaJdMaTXrOn1dFlDz4Uckcsej_&_nc_ohc=0ZYhny0euiIQ7kNvgE1Y-U9&_nc_ht=scontent.fmnl3-4.fna&oh=00_AYBkTlsoldELS-D9MK_tZMv-ih5l87dPk23QLXGpOXjL5w&oe=6696DC3B" alt="Artist Image">
+        </div>
+        <div class="artist-details">
+            <h1>Aenon Rose Patron</h1>
+            <p>Aenon Rose, a 20-year-old student and freelance photographer, developed a passion for photography in middle school. Receiving her first DSLR camera at age 14, she began to pursue photography professionally. She enjoys capturing memories in her divers and creative style, particularly street and sports photography. In November 2023, she exhbited her works for the first time at the LPU-Manila's "Silakbo: An Outburst of Artistic Desire" exhibition.</p>
+        </div>
+    </section>
+    <section class="artworks">
+        <div class="artwork" data-title="Buhay Bahay" data-description="" data-medium="Digital Photography">
+            <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/448324808_1102322194656771_3459921994832873314_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGHVko-UnQFoYM8aB0kb40OtcmPfLiYTb-1yY98uJhNv6K9Ew45hPmaCGVu_BtYOMpkavUuxXBpqN8mj-wssWf2&_nc_ohc=hvRmcBjfPZMQ7kNvgFDfSKY&_nc_ht=scontent.fmnl3-2.fna&oh=03_Q7cD1QGnqnb8338TxJA2kWI2mQXLhnMyrYYr2neyBLESqgZnbw&oe=6697180E" alt="Artwork 1">
+        </div>
+        <div class="artwork" data-title="Eye of Fire" data-description="" data-medium="Digital Photography">
+            <img src="https://scontent.fmnl37-2.fna.fbcdn.net/v/t1.15752-9/448268446_1219680829401384_2039125208187665529_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFnzEoSr8VLfMPFRx7pzI07ZK3rCnYgrThkresKdiCtOFM4op3kQ8eR8fgX5zHotVyVkJ-pNNLHH3EBSkQY03Yv&_nc_ohc=mgm4AVUJ0iIQ7kNvgHUthmu&_nc_ht=scontent.fmnl37-2.fna&oh=03_Q7cD1QHLZuQNoUxgHkGgdYotX4iG-DD1X2mvdNcNiQs-1Tw8Iw&oe=66972FCE" alt="Artwork 2">
+        </div>
+        <div class="artwork" data-title="Familia" data-description="" data-medium="Film Photography">
+            <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/448276163_866018665351224_2506395683935230939_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGrdLqPPGrZPGPSmVA89AbquEB4JZNTWqy4QHglk1NarBJiMTDhcbOtvou5xrQz64Blpwv7IhEezL3X2g99Z8QP&_nc_ohc=596kxPizNAAQ7kNvgHOV5UL&_nc_ht=scontent.fmnl3-2.fna&oh=03_Q7cD1QF81Y1TzBpk7tQsbozeKGRQQoXRXmzAb2zKrbYV2wTBaA&oe=66970C5D" alt="Artwork 3">
+        </div>
+        <div class="artwork" data-title="Girl in the Shore" data-description="" data-medium="Digital Photography">
+            <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/448432418_1023070535749630_6990323019678050948_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFwL3J8sHzL-SMZIrxTrTdp_fwS3T_aDbr9_BLdP9oNupsFhYDJEUc9fBR2LwMJDFRP6FnaHZDKrUYYgG7WbBNr&_nc_ohc=_qUHLReAK9EQ7kNvgH_T-bE&_nc_ht=scontent.fmnl3-4.fna&oh=03_Q7cD1QGOHQYdm3YGi_kYWTuHZrafh7OrkqVTK4AVgBhJtwJxkg&oe=669727B7" alt="Artwork 4">
+        </div>
+        <div class="artwork" data-title="Lady Pirates" data-description="" data-medium="Digital Photography">
+            <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/448546587_2873047349500934_3180824062468380275_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF84V0Mvjv4chLMjOnrWaVW_OM1t8Mvw6z84zW3wy_DrD0LCUxdjNoHTQY6ZlVpf5P-1jJIYmEgx81FlqQH0fXg&_nc_ohc=jCUtrxskaZkQ7kNvgGy8nR0&_nc_ht=scontent.fmnl3-2.fna&oh=03_Q7cD1QFUf1j8rX_1kg3ZdNU47R38fJS0J7-GBOWKfl3tVnjVxg&oe=66973733" alt="Artwork 5">
+        </div>
+        <div class="artwork" data-title="Mother's Love" data-description="" data-medium="Digital Photography">
+            <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/448621254_823127982707815_3560615955759270821_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHd0-Ch987eKMw0zVZDG3ATdsXcQrqL7xN2xdxCuovvE_Z9h2ikY6nEDIOpOaZ3czRg0XrDHsmVDtfXy6zZjxhl&_nc_ohc=6K-B978vtLQQ7kNvgE5djI1&_nc_ht=scontent.fmnl3-2.fna&oh=03_Q7cD1QHH9g4eUOPl4Sax8VBerOckpOS8gLdlXCbydvijebAwvw&oe=66972B7E" alt="Artwork 5">
+        </div>
+        <div class="artwork" data-title="Pauwi Na" data-description="" data-medium="Digital Photography">
+            <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/448320673_432943169628029_904904594484151993_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFRnGBqEfyDReWisTAvoi0MIU7jtS451f4hTuO1LjnV_nwTNxsfIZg55eVPqdX9il420DVlAHWYf-bTRGJe6c6r&_nc_ohc=Kbxc_zPZg4wQ7kNvgHy8uuK&_nc_ht=scontent.fmnl3-2.fna&oh=03_Q7cD1QFwF-opZIgRWFPxgn4_Pm5Dknh4zYctoa_ifRURrpVRXQ&oe=66973094" alt="Artwork 5">
+        </div>
+        <div class="artwork" data-title="Streetwear" data-description="" data-medium="Digital Photography">
+            <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/448331746_1653118538781083_3362863568671987460_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHswHTsjQHpXk8ejJ_aEFqqMuYqR1Oa_a0y5ipHU5r9rX4_u6eTltkjH8IaDZ1n-kzO3jiurNQSFvKLDKimI43T&_nc_ohc=aMNVEJ1edCMQ7kNvgHnOQlV&_nc_ht=scontent.fmnl3-4.fna&oh=03_Q7cD1QG18nIlAJSX66X3RVoFoigK_SQcz48OtHarf8b3cEeRdw&oe=669712A3" alt="Artwork 5">
+        </div>
+        <div class="artwork" data-title="The Battle of Pinaglabanan" data-description="" data-medium="Film Photography">
+            <img src="https://scontent.fmnl3-3.fna.fbcdn.net/v/t1.15752-9/448326279_1169290180777984_1306426803150610897_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHxhJsDJkUQ7DxgkE-6dXgLxvZuO_STr3XG9m479JOvdYm2HcoLgDoL5a8sY4AmPfydw0Yba8FSxpRj8BWHfgGJ&_nc_ohc=kHNhLZ6rraQQ7kNvgH7ICk2&_nc_ht=scontent.fmnl3-3.fna&oh=03_Q7cD1QHNzUliVRkAe2ALbYQLVWTlFJJSVhSfY8HnmOqHblJ8jQ&oe=669704F4" alt="Artwork 5">
+        </div>
+        <div class="artwork" data-title="The Passion for Beauty" data-description="" data-medium="Digital Photography">
+            <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/448393145_1412113193517980_2260387403923831373_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFLQ123l--WlL2ZYuSEZSaSAI0ckHGkJO4AjRyQcaQk7goAPtb2oukOvLwR_Y-Fy8GWGVeJKC1vchihFVfFjrR2&_nc_ohc=JTNgDhqMOJMQ7kNvgGtHC_H&_nc_ht=scontent.fmnl3-4.fna&oh=03_Q7cD1QGRHEHKFL_iXbttLAGWziQNgtii_y0bd4IjgKPSeSjEsw&oe=66973264" alt="Artwork 5">
+        </div>
+    </section>
+</main>
+<div id="artwork-modal" class="modal hidden">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+            <div class="modal-image">
+                <img id="modal-img" src="" alt="Detailed Artwork">
+            </div>
+            <div class="modal-info">
+                <h1 id="modal-title">ARTWORK NAME</h1>
+                <p id="modal-description">Detailed description for the artwork.</p>
+                <p id="modal-medium">Medium: </p> <!-- Added a new paragraph for medium -->
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const artworks = document.querySelectorAll('.artwork img');
+        const modal = document.getElementById('artwork-modal');
+        const modalImg = document.getElementById('modal-img');
+        const modalTitle = document.getElementById('modal-title');
+        const modalDescription = document.getElementById('modal-description');
+        const modalMedium = document.getElementById('modal-medium');
+        const closeModal = document.querySelector('.close');
+
+        artworks.forEach(artwork => {
+            artwork.addEventListener('click', (event) => {
+                const imgSrc = event.target.src;
+                const artworkElement = event.target.closest('.artwork');
+                const artworkTitle = artworkElement.getAttribute('data-title');
+                const artworkDescription = artworkElement.getAttribute('data-description');
+                const artworkMedium = artworkElement.getAttribute('data-medium');
+
+                modalImg.src = imgSrc;
+                modalTitle.textContent = artworkTitle;
+                modalDescription.textContent = artworkDescription;
+                modalMedium.textContent = `Medium: ${artworkMedium}`; // Display the medium
+
+                modal.classList.remove('hidden');
+            });
+        });
+
+        closeModal.addEventListener('click', () => {
+            modal.classList.add('hidden');
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target == modal) {
+                modal.classList.add('hidden');
+            }
+        });
+    });
+</script>
+
+<style>
+
+    body{
+        background-color: #E373AB;
+    }
+   
+    main {
+        padding: 10px;
+    }
+
+    .artist-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        padding: 80px;
+        column-gap: 80px;
+       font-weight: 600;
+         justify-content: center;
+        margin: auto;
+    }
+
+    .artist-info h1 {
+      font-weight: 900;
+    }
+
+    .artist-image img {
+        width: 300px;
+        height: 400px;
+        margin-right: 20px;
+        overflow: hidden;
+        object-fit: cover;
+        box-shadow: 20px 20px  #fff;
+        outline: 7px solid #000;
+    }
+
+    .artist-details {
+        max-width: 800px;
+    }
+
+    .artworks {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        gap: 20px;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .artwork img {
+        width: 100%;
+        height: 533.2px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        object-fit: cover;
+        box-shadow: 10px 10px 0px 0px #000;
+        transition: box-shadow 0.3s ease;
+        transition: transform 0.3s ease;
+        outline: 2px solid #000;
+    }
+
+        .artwork img:hover {
+            transform: translateY(-10px);
+            box-shadow: 15px 15px 0px 0px #00ff00;
+            transform: translateY(-10px)
+        }
+
+    .modal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+    }
+
+        .modal.hidden {
+            display: none;
+        }
+
+    .modal-content {
+        background-color: #7FE373;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 95%;
+        max-height: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        overflow: auto;
+        position: relative;
+    }
+
+    .modal-body {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 80px;
+    }
+
+    .modal-image img {
+        width: 720px;
+        height: auto;
+        max-width: 800px;
+        box-shadow: 10px 10px 0px 0px #000;
+        outline: 5px solid #fff;
+    }
+
+    .modal-info {
+        color: #000;
+        max-width: 600px;
+        align-items: baseline;
+        font-weight: 600;
+    }
+
+        .modal-info h1 {
+            color: #000;
+            max-width: 600px;
+            align-items: baseline;
+            font-weight: 900;
+            font-size: 72px;
+        }
+
+
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
+</style>

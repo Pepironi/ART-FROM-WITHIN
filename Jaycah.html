@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ART FROM WITHIN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="HomePage.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="logo.gif" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Artworks.html">Artworks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Artists.html">Artists</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<main>
+    <section class="artist-info">
+        <div class="artist-image">
+            <img src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t39.30808-6/415899030_2549684721874048_8410496683367358854_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHPHN6cK9cJzMh8LXbDqdv8wWz5HiKLy_DBbPkeIovL8Ep7KPSkGOVZMvCP-h8822VCzBfbDKLgJDJzsOYF9LEI&_nc_ohc=Z45MsEYUoHkQ7kNvgF93djb&_nc_ht=scontent.fmnl3-1.fna&oh=00_AYCT-JnFV7Y4cOPyWjuGr8F-nmeAQgHJNCX26vtqIODzlA&oe=66755F46" alt="Artist Image">
+        </div>
+        <div class="artist-details">
+            <h1>Jaycah Roncales</h1>
+            <p>
+                Jaycah Roncales is a 21-year-old Multimedia
+                Arts student. She started making art
+                traditionally using watercolor, gouache, and
+                acrylic paint. Now she is exploring digital arts
+                and has started making a few digital
+                illustrations. She also enjoys doing 3D
+                modeling and 3D animation. She likes
+                watching YouTube videos while doing
+                something productive, and she sees
+                watching dramas or series as a reward for
+                finishing a task.
+            </p>
+        </div>
+    </section>
+    <section class="artworks">
+        <div class="artwork" data-title="Alice" data-description="" data-medium="Acrylic on Canvas">
+            <img src="https://scontent.fmnl37-2.fna.fbcdn.net/v/t1.15752-9/448205607_2136427133406012_8637127323597244435_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEpzrGR1kafqvq90PdVZPKMvD4JG7YEzu28PgkbtgTO7VUl5fZ83V6LY45thicvv36toq3kOcmTQkr_vaECXE2U&_nc_ohc=WmNrSjwKZ_8Q7kNvgEiNiGj&_nc_ht=scontent.fmnl37-2.fna&oh=03_Q7cD1QECvBDGWySx9GAUe0L6t5jh2Wp8bHnBztBKmVnmcPbgAg&oe=6696F001" alt="Artwork 1">
+        </div>
+        <div class="artwork" data-title="Dewberi" data-description="" data-medium="Acrylic on Canvas">
+            <img src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t1.15752-9/448266527_849742893852736_1824343514827755183_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFX5UamQuGUfugG_dQmx2jtth_J1Jew_IK2H8nUl7D8giWWVj3yvX1cXH1vI_xpRer01ZXXPyiCT-q1yWo0mgWI&_nc_ohc=qx2w-LAL334Q7kNvgExKukd&_nc_ht=scontent.fmnl3-1.fna&oh=03_Q7cD1QHYnhcfJ-VgDiABWKaIU74EDHlHRDSjmgHD34nL_JWWvw&oe=66970F81" alt="Artwork 2">
+        </div>
+        <div class="artwork" data-title="Mama Sita's'" data-description="" data-medium="Acrylic on Canvas">
+            <img src="https://scontent.fmnl37-1.fna.fbcdn.net/v/t1.15752-9/448414591_455074413929587_8731813223416454379_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF4iwQQaUtEEKRorpaCiGz4DHUMNtiOl_YMdQw22I6X9hHEkyziPQNtOYCwUzgvVl2m74u40pBJWErPdNsnBbzc&_nc_ohc=el8D-V3MaAEQ7kNvgHPiD8k&_nc_ht=scontent.fmnl37-1.fna&oh=03_Q7cD1QFYwgY0rXDTjUnpkO-BL1Z71dHl4ruIg_FNqqwsYKeLNQ&oe=6696E415" alt="Artwork 3">
+        </div>
+        <div class="artwork" data-title="Reflected lights" data-description="" data-medium="Mixed Media">
+            <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/448363056_1701565296914847_2731056122366496174_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFhyxSzmYN38rCYZid73KQzMtyMJtZNFXAy3Iwm1k0VcMi20rtCSNS_a2itOwrZWyPSL5X1xD7ZjGPHpQnL-BIQ&_nc_ohc=Iq6YLMRBOxoQ7kNvgFRQfed&_nc_ht=scontent.fmnl3-4.fna&oh=03_Q7cD1QGfZAMDdmbAIrQJSaPeGzQEVI-gkuXL-4sMFSOQ6Ly7-Q&oe=66970856" alt="Artwork 4">
+        </div>
+        <div class="artwork" data-title="Splashes of Sunset" data-description="" data-medium="Mixed Media">
+            <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/448359025_800796218822066_5139994972841153728_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHQZw4pldN57fxWaO-Fu7zLvAcu5hcLgR68By7mFwuBHoSUzqDF7KPW8sR7V9gz62sIi1NWOUyoPou00wLvLKlL&_nc_ohc=EfJ8e3dv-IMQ7kNvgELoLdj&_nc_ht=scontent.fmnl3-2.fna&oh=03_Q7cD1QG3OcuzcjtfuoUmgivkOqTl08a3A0MVVaC8WsC7NtIEMA&oe=6696DD70" alt="Artwork 5">
+        </div>
+    </section>
+</main>
+<div id="artwork-modal" class="modal hidden">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+            <div class="modal-image">
+                <img id="modal-img" src="" alt="Detailed Artwork">
+            </div>
+            <div class="modal-info">
+                <h1 id="modal-title">ARTWORK NAME</h1>
+                <p id="modal-description">Detailed description for the artwork.</p>
+                <p id="modal-medium">Medium: </p> 
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const artworks = document.querySelectorAll('.artwork img');
+        const modal = document.getElementById('artwork-modal');
+        const modalImg = document.getElementById('modal-img');
+        const modalTitle = document.getElementById('modal-title');
+        const modalDescription = document.getElementById('modal-description');
+        const modalMedium = document.getElementById('modal-medium');
+        const closeModal = document.querySelector('.close');
+
+        artworks.forEach(artwork => {
+            artwork.addEventListener('click', (event) => {
+                const imgSrc = event.target.src;
+                const artworkElement = event.target.closest('.artwork');
+                const artworkTitle = artworkElement.getAttribute('data-title');
+                const artworkDescription = artworkElement.getAttribute('data-description');
+                const artworkMedium = artworkElement.getAttribute('data-medium');
+
+                modalImg.src = imgSrc;
+                modalTitle.textContent = artworkTitle;
+                modalDescription.textContent = artworkDescription;
+                modalMedium.textContent = `Medium: ${artworkMedium}`; // Display the medium
+
+                modal.classList.remove('hidden');
+            });
+        });
+
+        closeModal.addEventListener('click', () => {
+            modal.classList.add('hidden');
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target == modal) {
+                modal.classList.add('hidden');
+            }
+        });
+    });
+</script>
+
+<style>
+    body {
+        background-color: #F3F437;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .artist-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        padding: 80px;
+        column-gap: 80px;
+        font-weight: 600;
+        justify-content: center;
+            margin: auto;
+    }
+
+        .artist-info h1 {
+            font-weight: 900;
+        }
+
+    .artist-image img {
+        width: 300px;
+        height: 400px;
+        margin-right: 20px;
+        overflow: hidden;
+        object-fit: cover;
+        box-shadow: 20px 20px #fff;
+        outline: 7px solid #000;
+    }
+
+    .artist-details {
+        max-width: 800px;
+    }
+
+    .artworks {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        gap: 20px;
+        justify-content: center;
+            margin: auto;
+    }
+
+    .artwork img {
+        width: 100%;
+        height: 533.2px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        object-fit: cover;
+        box-shadow: 10px 10px 0px 0px #000;
+        transition: box-shadow 0.3s ease;
+        transition: transform 0.3s ease;
+        outline: 2px solid #000;
+    }
+
+        .artwork img:hover {
+            transform: translateY(-10px);
+            box-shadow: 15px 15px 0px 0px #37B5F4;
+            transform: translateY(-10px)
+        }
+
+    .modal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+    }
+
+        .modal.hidden {
+            display: none;
+        }
+
+    .modal-content {
+        background-color: #7FE373;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 95%;
+        max-height: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        overflow: auto;
+        position: relative;
+    }
+
+    .modal-body {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 80px;
+    }
+
+    .modal-image img {
+        width: 720px;
+        height: auto;
+        max-width: 800px;
+        box-shadow: 10px 10px 0px 0px #000;
+        outline: 5px solid #fff;
+    }
+
+    .modal-info {
+        color: #000;
+        max-width: 600px;
+        align-items: baseline;
+        font-weight: 600;
+    }
+
+        .modal-info h1 {
+            color: #000;
+            max-width: 600px;
+            align-items: baseline;
+            font-weight: 900;
+            font-size: 72px;
+        }
+
+
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
+</style>
